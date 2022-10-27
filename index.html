@@ -13,14 +13,14 @@
         <header>
             <ul>
                 <li><a href="https://mail.google.com/mail/">Gmail</a></li>
-                <li><a href="Port/index.html">About Us</a></li>
+                <li><a href="port/index.html">About Us</a></li>
                 <li><a href="contact-form.html">Contact</a></li>
                 <li><a href="#" target="blank"><img src="bars.png" alt="9-icons"></a></li>
                 <li><a href="https://sushavan20.github.io/Portfolio/" target="blank"><img src="icon.png" alt="9-icons" width="32" height="33"></a></li>
             </ul>
         </header>
         <div class="main">
-            <img src="google.png" alt="google-img">
+            <img src="doogleLogo.png" alt="google-img" width="330" height="100"><br>
             <div class="searchbox">
                 <input type="text" class="search query" name="" value="">
                 <div class="icons">
@@ -72,14 +72,13 @@
         searchBtn.onclick = function(){
             let url = 'https://www.google.com/search?q='+query.value;
             window.open(url,'_self');
-       }
+        }
         document.onkeydown=function(){
             if(window.event.keyCode=='13'){
                 let url = 'https://www.google.com/search?q='+query.value;
                 window.open(url,'_self');
             }
         }
-
     </script>
 </body>
 </html>
